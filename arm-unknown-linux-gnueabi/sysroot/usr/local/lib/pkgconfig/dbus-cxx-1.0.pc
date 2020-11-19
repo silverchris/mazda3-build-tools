@@ -1,0 +1,9 @@
+Name: dbus-cxx
+Description: C++ bindings for dbus
+Version: 0.12.0
+Requires: dbus-1 >= 1.3, sigc++-2.0
+prefix=/usr/local
+includedir=${prefix}/include/dbus-cxx-0.12
+libdir=${prefix}/lib
+Libs: -L${libdir} -ldbus-cxx
+Cflags: -I${includedir}
