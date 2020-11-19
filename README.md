@@ -23,3 +23,5 @@ Included, but not currently used by headunit
 - boost_1_74_0
 - libsigc++-2.10.4
 - dbus-cxx-0.12.0
+
+Modified crosstool-ng to support building with ancient glibc https://github.com/silverchris/crosstool-ng/tree/mazda3
